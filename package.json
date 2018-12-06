@@ -60,6 +60,5 @@
     "flow-bin": "^0.87.0",
     "jest": "^23.6.0",
     "pre-commit": "^1.2.2"
-  },
-  "dependencies": {}
+  }
 }
