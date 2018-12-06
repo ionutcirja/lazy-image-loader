@@ -1,6 +1,6 @@
 # Vanilla image loader
 
-This is a simple loader images utility.
+This is a simple images loader utility.
 
 Any pull request for optimisations and new additions is more than welcome.
 
