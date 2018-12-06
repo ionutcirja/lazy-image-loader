@@ -9,12 +9,12 @@
     "url": "https://github.com/ionutcirja/lazy-image-loader"
   },
   "scripts": {
-    "build": "babel -d lib/ src/ --ignore *.spec.js",
+    "build": "babel -d lib/ src/ --ignore **/*.spec.js",
     "lint": "eslint src/**",
     "test": "jest",
     "test:watch": "jest --watch",
     "test:watchAll": "jest --watchAll",
-    "prepublish": "npm run lint && npm test && npm run build",
+    "prepublish": "npm run lint && npm run flow && npm test && npm run build",
     "flow": "flow"
   },
   "main": "lib/index.js",
